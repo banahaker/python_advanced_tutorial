@@ -34,4 +34,4 @@ except Exception as e:
 這個範例程式就出現了一個可能之前沒看過的語法，不過未來都會介紹，如果在觀看文章的過程中有發現不懂的概念都可以先 Google 看看，如果有需要都可以用以下方式聯絡我
 
 - Email: lazpytb@gmail.com
-- Discord: Lazp#6012
+- Discord: [Lazp#6012](http://discord.com/users/813904269727236108)
