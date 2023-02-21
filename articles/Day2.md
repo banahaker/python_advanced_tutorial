@@ -1,6 +1,7 @@
 # \[Day2\] 進階語法 1 - Function and Typing
 
-上一篇:[ \[Day1\] Python? 進階? ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day1.md)
+上一篇: [ \[Day1\] Python? 進階? ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day1.md)  
+下一篇: [ \[Day3\] 進階語法 2 - Function and Decorator ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day3.md)
 
 開始之前來複習複習一下 Python Function 的語法
 
