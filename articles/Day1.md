@@ -1,5 +1,7 @@
 # \[Day1\] Python? 進階?
 
+下一篇: [ \[Day2\] 進階語法 1 - Function and Typing ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day2.md)
+
 這篇進階 Python 教學將會讓你更認識 Python 的語法與一些實作。  
 以下為教學內容：
 
@@ -17,6 +19,7 @@
 本系列文章將會採每日更新，並不固定篇數更新至 Github/Medium/NazpBlog 等平臺 以下是系列文章連接將會持續更新，可以收藏本頁以便觀看。
 
 1. [ \[Day1\] Python? 進階? ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day1.md)
+2. [ \[Day2\] 進階語法 1 - Function and Typing ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day2.md)
 
 本系列所有範例程式碼將會全部放在 [Github 這裡](https://github.com/banahaker/python_advanced_tutorial/)，有需要請自行取用。
 
