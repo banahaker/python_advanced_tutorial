@@ -1,12 +1,12 @@
-# \[Day3\] 進階語法 2 - Function and Decorator
+# \[Day3\] 進階語法 2 - function and Decorator
 
-上一篇:[ \[Day2\] 進階語法 1 - Function and Typing ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day2.md)
+上一篇:[ \[Day2\] 進階語法 1 - function and Typing ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day2.md)
 
 看完昨天的文章應該比較了解不同型別系統的差異，越學越多程式相關知識之後就會像這樣開始聊解程式運作系統的概念，今天我們來講點輕鬆的 - Decorator (裝飾器)。
 
-### 先認識認識 Python 的 Function
+### 先認識認識 Python 的 function
 
-Python 的 Function 大家應該都已經熟悉如何使用了，先拿昨天的範例程式碼來開頭
+Python 的 function 大家應該都已經熟悉如何使用了，先拿昨天的範例程式碼來開頭
 
 ```py
 def func(c: int) -> int:
@@ -14,7 +14,7 @@ def func(c: int) -> int:
     return c+1
 ```
 
-這裡的 `func` 就是個函數，在 Python 中 Function 是屬於`一等公民(First-Class Citizens)`存在的，甚麼是一等公民呢，他能夠像一般的變數一樣做一些類似的操作，像是複製
+這裡的 `func` 就是個函數，在 Python 中 function 是屬於`一等公民(First-Class Citizens)`存在的，甚麼是一等公民呢，他能夠像一般的變數一樣做一些類似的操作，像是複製
 
 ```py
 def func(c: int) -> int:
@@ -61,7 +61,7 @@ print(func(123))
 125
 ```
 
-熟悉 Function 的人應該馬上就能了解，接著更炫砲的來了喔，還記得上面 `func` 函數的參數 `c` 嗎，那你有沒有想過參數搞不好可以放函數，可能聽不太懂，我們馬上來看範例:
+熟悉 function 的人應該馬上就能了解，接著更炫砲的來了喔，還記得上面 `func` 函數的參數 `c` 嗎，那你有沒有想過參數搞不好可以放函數，可能聽不太懂，我們馬上來看範例:
 
 ```py
 def func(f) -> None:
@@ -73,7 +73,7 @@ def hello():
 func(hello)
 ```
 
-這個範例裡面我們可以看到將 `hello` 這個 Function 當成了一個參數傳入了 `func` 這個函數裡面，接著執行他，所以函數在 Python 中不僅可以複製還可以當成參數傳入函數，但要注意的是，這種概念只有在部分語言中存在，許多語言如 C 都是不支援這樣的用法的喔(但有個東西叫做 Function Pointer 有興趣的可以看我[這篇文章](https://medium.com/@lazpytb/c%E8%AA%9E%E8%A8%80-%E5%87%BD%E5%BC%8F%E6%8C%87%E6%A8%99-funtion-pointer-526305772174))。
+這個範例裡面我們可以看到將 `hello` 這個 function 當成了一個參數傳入了 `func` 這個函數裡面，接著執行他，所以函數在 Python 中不僅可以複製還可以當成參數傳入函數，但要注意的是，這種概念只有在部分語言中存在，許多語言如 C 都是不支援這樣的用法的喔(但有個東西叫做 function Pointer 有興趣的可以看我[這篇文章](https://medium.com/@lazpytb/c%E8%AA%9E%E8%A8%80-%E5%87%BD%E5%BC%8F%E6%8C%87%E6%A8%99-funtion-pointer-526305772174))。
 
 ### 裝飾器，雖然可能不好看，但是必須知道
 
