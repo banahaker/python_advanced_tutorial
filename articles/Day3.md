@@ -1,6 +1,7 @@
 # \[Day3\] 進階語法 2 - function and Decorator
 
 上一篇:[ \[Day2\] 進階語法 1 - function and Typing ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day2.md)
+下一篇: [ \[Day4\] 進階語法 3 - Lambda Function ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day4.md)
 
 看完昨天的文章應該比較了解不同型別系統的差異，越學越多程式相關知識之後就會像這樣開始聊解程式運作系統的概念，今天我們來講點輕鬆的 - Decorator (裝飾器)。
 
