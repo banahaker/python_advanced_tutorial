@@ -29,4 +29,7 @@
 
 ## 結語
 
-希望大家都能在 Python 的學習上日漸成長！
+希望大家都能在 Python 的學習上日漸成長！如果在觀看文章的過程中有發現不懂的概念都可以先 Google 看看，如果有需要都可以用以下方式聯絡我
+
+- Email: lazpytb@gmail.com
+- Discord: [Lazp#6012](http://discord.com/users/813904269727236108)
