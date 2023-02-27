@@ -1,7 +1,7 @@
 # \[Day5\] 進階語法 4 - Python Class & OOP
 
 上一篇: [ \[Day4\] 進階語法 3 - Lambda Function ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day4.md)  
-下一篇: [ \[Day6\] 專案開發 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
+下一篇: [ \[Day6\] 程式應用 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
 
 哈囉各位大家好，今天去學校的 Class 上課感覺如何？應該還不錯，那我們今天就來講 Python Class 吧！
 
