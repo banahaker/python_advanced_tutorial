@@ -2,7 +2,7 @@
 
 上一篇: [ \[Day4\] 進階語法 3 - Lambda Function ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day4.md)
 
-哈囉各為大家好，今天去學校的 Class 上課感覺如何？應該還不錯，那我們今天就來講 Python Class 吧！
+哈囉各位大家好，今天去學校的 Class 上課感覺如何？應該還不錯，那我們今天就來講 Python Class 吧！
 
 ### OOP, Object-oriented programming
 
