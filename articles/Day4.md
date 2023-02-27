@@ -1,6 +1,6 @@
 # \[Day4\] 進階語法 3 - Lambda Function
 
-上一篇: [ \[Day3\] 進階語法 2 - function and Decorator ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day3.md)
+上一篇: [ \[Day3\] 進階語法 2 - function and Decorator ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day3.md)  
 下一篇: [ \[Day5\] 進階語法 4 - Python Class & OOP ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day5.md)
 
 Lambda，波長，是波速與頻率比值。喔抱歉跑錯棚，今天不是教物理，要講的是 Python 的 Lambda Function，也就是匿名函數。
