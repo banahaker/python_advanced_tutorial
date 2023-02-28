@@ -45,7 +45,7 @@
 4. [ \[Day4\] 進階語法 3 - Lambda Function ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day4.md)
 5. [ \[Day5\] 進階語法 4 - Python Class & OOP ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day5.md)
 6. [\[番外篇\] Python 基礎到底是哪些 窩真的不懂](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Add1.md)
-7. [ \[Day6\] 專案開發 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
+7. [ \[Day6\] 程式應用 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
 
 本系列所有範例程式碼將會全部放在 [Github 這裡](https://github.com/banahaker/python_advanced_tutorial/)，有需要請自行取用。
 
