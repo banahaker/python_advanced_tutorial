@@ -1,7 +1,7 @@
 # \[Day6\] 程式應用 1 - Python Package
 
 上一篇: [ \[Day5\] 進階語法 4 - Python Class & OOP ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day5.md)  
-下一篇: [ \[Day7\] 程式應用 2 - 使用 Numpy ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day7.md)
+下一篇: [ \[Day7\] 程式應用 2 - 初學Numpy ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day7.md)
 
 在前五天，我們複習了一些重要概念，也學習了一些新觀念，從今天開始就要進入實作環節了，進到程式應用開發的領域，在出發之前，我們必須先認識所謂的 Package。
 

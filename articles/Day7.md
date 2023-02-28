@@ -1,4 +1,4 @@
-# \[Day7\] 程式應用 2 - 使用 Numpy (1)
+# \[Day7\] 程式應用 2 - 初學 Numpy
 
 上一篇: [ \[Day6\] 程式應用 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
 
