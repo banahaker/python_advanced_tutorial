@@ -48,6 +48,7 @@
 5. [ \[Day5\] 進階語法 4 - Python Class & OOP ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day5.md)
 6. [\[番外篇\] Python 基礎到底是哪些 窩真的不懂](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Add1.md)
 7. [ \[Day6\] 程式應用 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
+8. [ \[Day7\] 程式應用 2 - 使用 Numpy ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day7.md)
 
 ## 作者介紹
 
