@@ -49,6 +49,7 @@
 6. [\[番外篇\] Python 基礎到底是哪些 窩真的不懂](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Add1.md)
 7. [ \[Day6\] 程式應用 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
 8. [ \[Day7\] 程式應用 2 - 初學Numpy ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day7.md)
+9. [ \[Day8\] 數學1 - 線性代數 ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day8.pdf)
 
 ## 作者介紹
 
