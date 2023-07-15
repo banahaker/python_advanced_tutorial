@@ -1,6 +1,7 @@
 # \[Day7\] 程式應用 2 - 初學 Numpy
 
 上一篇: [ \[Day6\] 程式應用 1 - Python Package ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day6.md)
+下一篇: [ \[Day8\] 數學 1 - Linear Algebra ](https://github.com/banahaker/python_advanced_tutorial/blob/main/articles/Day8.md)
 
 還記得上篇文章中我們介紹的 Python Package 使用方法了嗎，我們今天就來學習使用一個在數據分析中非常常用的套件 - Numpy。
 
