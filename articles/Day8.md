@@ -143,20 +143,20 @@ $$
 首先我們要有兩個向量
 
 $$
-\hat{a} = \begin{bmatrix}
-  1 \\ 2 \\3
-\end{bmatrix}
+  \hat{a} = \begin{bmatrix}
+    1 \\ 2 \\3
+  \end{bmatrix}
 
 
-\hat{b} = \begin{bmatrix}
-  3 \\ 4 \\5
-\end{bmatrix}
+  \hat{b} = \begin{bmatrix}
+    3 \\ 4 \\5
+  \end{bmatrix}
 $$
 
 則
 
 $$
-\hat{a}\hat{b} = a_1b_1 + a_2b_2 + \cdots + a_nb_n =  \sum_{i=1}^n{a_ib_i}
+  \hat{a}\hat{b} = a_1b_1 + a_2b_2 + \cdots + a_nb_n =  \sum_{i=1}^n{a_ib_i}
 $$
 
 以上面的例子來看 $ab$ 就是 $24$。
@@ -172,36 +172,35 @@ $$
 接下來就可以來做運算了
 
 $$
-(AB)_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \cdots + a_{in}b_{nj} = \sum_{k = 1}^n{a_{ik}b_{kj}}
+  (AB)_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \cdots + a_{in}b_{nj} = \sum_{k = 1}^n{a_{ik}b_{kj}}
 $$
 
 舉個例子
 
 $$
-\begin{bmatrix}
-    1 & 0 & 2 \\
-    -1 & 3 & 1
-\end{bmatrix}
-\cdot
   \begin{bmatrix}
-    3 & 1 \\
-    2 & 1 \\
-    1 & 0
+      1 & 0 & 2 \\
+      -1 & 3 & 1
   \end{bmatrix}
-=
-\begin{bmatrix}
-    5 & 1 \\
-    4 & 2
-\end{bmatrix}
-
+  \cdot
+    \begin{bmatrix}
+      3 & 1 \\
+      2 & 1 \\
+      1 & 0
+    \end{bmatrix}
+  =
+  \begin{bmatrix}
+      5 & 1 \\
+      4 & 2
+  \end{bmatrix}
 $$
 
 從這邊看，可以發現矩陣乘法是沒辦法符合交換律的，因為交換的話，結果會不一樣，即便如此，仍然符合結合律和分配律，即
 
 $$
-(AB)C = (AB)C \\
-(A+B)C = AC+BC \\
-C(A+B) = CA + CB
+  (AB)C = (AB)C \\
+  (A+B)C = AC+BC \\
+  C(A+B) = CA + CB
 $$
 
 #### 單位矩陣 Identity Matrix (Unit Matrix)
@@ -209,30 +208,30 @@ $$
 單位矩陣是一種特殊的方陣，最明顯的特徵就是他從左上角到右下角都是 $1$，除此之外的元素都是 $0$，舉個例子
 
 $$
-I_1 = \begin{bmatrix} 1 \end{bmatrix}
-,\ 
-I_2 = \begin{bmatrix}
-1 & 0 \\
-0 & 1 \end{bmatrix}
-,\ 
-I_3 = \begin{bmatrix}
-1 & 0 & 0 \\
-0 & 1 & 0 \\
-0 & 0 & 1 \end{bmatrix}
-,\ \dots ,\ 
-I_n = \begin{bmatrix}
-1 & 0 & 0 & \cdots & 0 \\
-0 & 1 & 0 & \cdots & 0 \\
-0 & 0 & 1 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-0 & 0 & 0 & \cdots & 1 \end{bmatrix}.
+  I_1 = \begin{bmatrix} 1 \end{bmatrix}
+  ,\ 
+  I_2 = \begin{bmatrix}
+  1 & 0 \\
+  0 & 1 \end{bmatrix}
+  ,\ 
+  I_3 = \begin{bmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1 \end{bmatrix}
+  ,\ \dots ,\ 
+  I_n = \begin{bmatrix}
+  1 & 0 & 0 & \cdots & 0 \\
+  0 & 1 & 0 & \cdots & 0 \\
+  0 & 0 & 1 & \cdots & 0 \\
+  \vdots & \vdots & \vdots & \ddots & \vdots \\
+  0 & 0 & 0 & \cdots & 1 \end{bmatrix}.
 $$
 *from wikipedia*
 
 那他有甚麼用呢？正如他的名字，單位，他就是類似一個單位的矩陣，甚麼意思？就是任一矩陣與他的乘積將會是原本的矩陣。 (通常以 $I_n$ 表示 $n \times n$ 的 Identity Matrix)，舉例，假設有一矩陣 $A_{m \times n}$
 
 $$
-I_m A = A I_n = A.
+  I_m A = A I_n = A.
 $$
 
 #### 行列式 Determinant
@@ -240,22 +239,22 @@ $$
 行列式是一種能夠從**方陣**計算出來的一個純量，可視為此矩陣的純亮表示。假設有一矩陣 $A$ 我們通常以 $\det(A)$，或是兩條豎線表示 $|A|$，如下
 
 $$
-A = \begin{bmatrix}
-  a & b & c \\
-  d & e & f \\
-  g & h & i \\
-\end{bmatrix}
-, \ \det(A) = |A| = \begin{vmatrix}
-  a & b & c \\
-  d & e & f \\
-  g & h & i \\
-\end{vmatrix}
+  A = \begin{bmatrix}
+    a & b & c \\
+    d & e & f \\
+    g & h & i \\
+  \end{bmatrix}
+  , \ \det(A) = |A| = \begin{vmatrix}
+    a & b & c \\
+    d & e & f \\
+    g & h & i \\
+  \end{vmatrix}
 $$
 
 那麼該如何計算行列式呢，一般來說會使用萊布尼茨公式來求，對於一個 $n$ 階方陣 $A$，其行列式如下
 
 $$
-\det(A) = \sum_{\sigma \in S_n} \mathrm{sgn}(\sigma) \prod_{i=1}^n a_{i,\sigma(i)}
+  \det(A) = \sum_{\sigma \in S_n} \mathrm{sgn}(\sigma) \prod_{i=1}^n a_{i,\sigma(i)}
 $$
 
 其中的 $\prod$ 符號是大寫的 $\pi$，為求積符號，類似於乘法版的 $\Sigma$。其中的 $\sigma \in S_n$ 的 $S_n$ 是一個自然數集合，其內容為 $\left \{ 1,2,...,n \right \}
@@ -266,13 +265,13 @@ $，$\sum_{\sigma \in S_n}$ 表示將集合內元素遍歷求和。接下來的 
 然而 $\mathrm{sgn}$ 函數在遇到偶排列時會成為 $1$，奇排列為 $-1$。說了這麼多可能有點難理解，因此我們舉個方陣來求他的行列式
 
 $$
-\det
-\begin{bmatrix}
-  a & b\\
-  c & d\\
-\end{bmatrix}
-= 
-ad - bc
+  \det
+  \begin{bmatrix}
+    a & b\\
+    c & d\\
+  \end{bmatrix}
+  = 
+  ad - bc
 $$
 
 大概就是這樣，可以套進去剛剛的公式做驗算會比較好理解。然而我們實際在計算行列式的時候是非常複雜的，因此我們可以使用 numpy 來處理，程式碼如下
@@ -294,76 +293,76 @@ print(np.linalg.det(matrix)) # 2*5 - 3*4
 就如同一般的數字倒數一樣，倒數與原數相乘會是 $1$，如
 
 $$
-2 \times \frac{1}{2} = 1
+  2 \times \frac{1}{2} = 1
 $$
 
 逆矩陣也一樣，相乘會變成前面提到的**單位矩陣(Unit Matrix)**，如下
 
 $$
-A \times A^{-1} = I
+  A \times A^{-1} = I
 $$
 
 看起來是個是個非常簡單的概念，但是在計算上是相當複雜的，以下舉個尋找 $2 \times 2  \ \mathrm{Matrix}$ 的 Inverse Matrix。
 
 $$
-\begin{bmatrix}
-a & b \\ c & d
-\end{bmatrix}^{-1}
-=
-\frac{1}{ad - bc}
-\begin{bmatrix}
-d & -b \\ -c & a
-\end{bmatrix}
+  \begin{bmatrix}
+  a & b \\ c & d
+  \end{bmatrix}^{-1}
+  =
+  \frac{1}{ad - bc}
+  \begin{bmatrix}
+  d & -b \\ -c & a
+  \end{bmatrix}
 $$
 
 或是使用稍早提到的行列式來表達
 
 $$
-\begin{bmatrix}
-a & b \\ c & d
-\end{bmatrix}^{-1}
-=
-\frac{1}{\det (A)}
-\begin{bmatrix}
-d & -b \\ -c \  & a
-\end{bmatrix}
+  \begin{bmatrix}
+  a & b \\ c & d
+  \end{bmatrix}^{-1}
+  =
+  \frac{1}{\det (A)}
+  \begin{bmatrix}
+  d & -b \\ -c \  & a
+  \end{bmatrix}
 $$
 
 舉個例子
 
 $$
-A = \begin{bmatrix}
-    5 & 1 \\
-    3 & 1
-\end{bmatrix} \ 
-A^{-1} = \frac{1}{2} \begin{bmatrix}
-    1 & -1 \\
-    -3 & 5
-\end{bmatrix}
-=
-\begin{bmatrix}
-    0.5 & -0.5 \\
-    -1.5 & 2.5
-\end{bmatrix}
+  A = \begin{bmatrix}
+      5 & 1 \\
+      3 & 1
+  \end{bmatrix} \ 
+  A^{-1} = \frac{1}{2} \begin{bmatrix}
+      1 & -1 \\
+      -3 & 5
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+      0.5 & -0.5 \\
+      -1.5 & 2.5
+  \end{bmatrix}
 $$
 
 從這邊我們就可以成功找到 $A$ 的逆矩陣，而他們兩個相乘會變成
 
 $$
-AA^{-1}=
-\begin{bmatrix}
-    5 & 1 \\
-    3 & 1
-\end{bmatrix}
-\begin{bmatrix}
-    0.5 & -0.5 \\
-    -1.5 & 2.5
-\end{bmatrix}
-=
-\begin{bmatrix}
-    1 & 0 \\
-    0 & 1
-\end{bmatrix}
+  AA^{-1}=
+  \begin{bmatrix}
+      5 & 1 \\
+      3 & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+      0.5 & -0.5 \\
+      -1.5 & 2.5
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+      1 & 0 \\
+      0 & 1
+  \end{bmatrix}
 $$
 
 也就是 $I_2$。除此之外，也可以發現 $ad-bc$ 若小於 $0$ (即行列式為 $0$)，是無法找到逆矩陣的。
