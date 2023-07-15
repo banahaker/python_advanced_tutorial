@@ -20,7 +20,7 @@
 - Matrices 矩陣  
   順帶一提，Matrix 正是知名電影駭客任務的原電影名稱。矩陣可以理解為2-D 的向量，通常以斜體粗大寫表示 $\boldsymbol{A}$。假如我們有個實數(Real-valued)大小為 $m \times n$ 的矩陣，我們可以表示為 $\boldsymbol{A} \in \mathbb{R}^{m \times n}$，而實際標示會是
   $$
-    \boldsymbol{A} =   \begin{bmatrix}
+    A =   \begin{bmatrix}
       0      & \cdots & 0      \\
       \vdots & \ddots & \vdots \\
       0      & \cdots & 0
@@ -46,7 +46,7 @@ $$
 如果我們將係數(coefficient)分離並整理成向量與矩陣，就會變成以下
 
 $$
-\boldsymbol{A} = \begin{bmatrix}
+A = \begin{bmatrix}
 2 & 1 \\
 4 & 3 \\
 2 & 1 \\
@@ -80,9 +80,11 @@ $$
 
 #### Vector Addition (向量加法):    
 向量的加法非常好理解，用一個舉例就可以了  
-1. Number Addition: $1 + 2 = 3$  <br/><br/>
+1. Number Addition: $1 + 2 = 3$
 2. Vector Addition: 
-  $\begin{bmatrix} 1 \\ 2\\ 3 \end{bmatrix} + \begin{bmatrix} 1 \\ 2\\ 3 \end{bmatrix} = \begin{bmatrix} 2 \\ 4\\ 6 \end{bmatrix}$
+  $$ 
+    \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix} + \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix} = \begin{bmatrix} 2 \\ 4 \\ 6 \end{bmatrix}
+  $$
 
 舉一個簡單的實例，假如我們要把兩個多項式函數相加
 
@@ -94,14 +96,14 @@ $$
 可以係數分離向量表示為
 
 $$
-\hat{f_1} = \begin{bmatrix} 2 \\ 3 \\ 1 \\7 \end{bmatrix},
+\hat{f_1} = \begin{bmatrix} 2 \\ 3 \\ 1 \\ 7 \end{bmatrix},
 \hat{f_2} = \begin{bmatrix} 4 \\ 2 \\ 4 \\ 1 \end{bmatrix}
 $$
 
 那麼 $f_1(x) + f_2(x)$ 可以用 $\hat{f_1}  + \hat{f_2}$ 來取得
 
 $$
-\begin{bmatrix} 2 \\ 3 \\ 1 \\7 \end{bmatrix} + \begin{bmatrix} 4 \\ 2 \\ 4 \\ 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 5 \\ 5 \\ 8 \end{bmatrix}
+\begin{bmatrix} 2 \\ 3 \\ 1 \\ 7 \end{bmatrix} + \begin{bmatrix} 4 \\ 2 \\ 4 \\ 1 \end{bmatrix} = \begin{bmatrix} 6 \\ 5 \\ 5 \\ 8 \end{bmatrix}
 $$
 
 因此
@@ -117,7 +119,7 @@ $$
 首先我們看到係數積(scalar multiplication)，簡單來說就是
 
 $$
-2\begin{bmatrix} 2 \\ 3 \\ 1 \\7 \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \\ 2 \\ 14 \end{bmatrix}
+2\begin{bmatrix} 2 \\ 3 \\ 1 \\ 7 \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \\ 2 \\ 14 \end{bmatrix}
 $$
 
 了解係數積之後就可以更好的理解一個方程式，如下
